@@ -1,0 +1,19 @@
+{
+  "id": "metaphor_trap_queen_master",
+  "name": "Metaphor Trap: Ant Queen Reproductive Signalling x Kubernetes Master Control Plane",
+  "category": "metaphor_trap",
+  "description": "Anti-sycophancy trap: an ant queen emits reproductive suppression pheromones and does NOT centrally orchestrate or schedule colony tasks; pairing her with a centralized Kubernetes master node is a purely rhetorical metaphor (REJECTED_METAPHOR, mechanismDepth 0, score <= 2).",
+  "biologyDocument": {
+    "fileName": "ant_queen_reproductive_role.md",
+    "markdownContent": "# Reproductive Specialization of the Ant Queen\n\n## Misconceptions Behind the Term Queen\n\nIn popular language, the single egg-laying female in a social insect colony such as *Formica* or *Solenopsis* is called a queen, which frequently misleads readers into assuming she acts as an executive ruler or central coordinator. Decades of behavioral ecology show that the ant queen does not issue centralized commands, allocate foraging tasks, or monitor worker performance.\n\nInstead, the colony exhibits strict reproductive division of labor without managerial hierarchy. While sterile female workers carry out foraging, nest excavation, brood care, and defense through local self-organization, the queen remains inside deep brood chambers specializing almost exclusively in egg production.\n\n## Cuticular Hydrocarbon Primer Pheromones\n\nThe ant queen emits non-volatile cuticular hydrocarbon pheromones that suppress worker ovary development without directing task execution or spatial routing. These fertility signals act purely as honest physiological cues of reproductive presence rather than operational instructions. Workers grooming the queen pick up trace hydrocarbons and spread them passively through trophallaxis and physical contact, informing nestmates that a fertile egg-layer is present.\n\nIf the queen is removed, worker foraging routes and nest repair schedules continue without interruption; the only systemic shift is that workers gradually activate their own ovaries or begin reproductive competition after several days. Consequently, the biological role of the queen is reproductive specialization, not computational orchestration or centralized decision-making."
+  },
+  "technologyDocument": {
+    "fileName": "kubernetes_control_plane.md",
+    "markdownContent": "# Centralized Control Plane Architecture in Kubernetes Clusters\n\n## Authoritative State and Master Scheduling\n\nLarge-scale container orchestration platforms such as Kubernetes rely on a logically centralized control plane—historically termed the master node—comprising `kube-apiserver`, the distributed key-value store `etcd`, `kube-scheduler`, and `kube-controller-manager`. Every cluster mutation, pod placement, health reconciliation loop, and network policy update passes authoritatively through the API server and `etcd`.\n\nUnlike autonomous peer-to-peer swarms, worker nodes (`kubelet` agents) do not independently decide which workloads to adopt from neighboring nodes; they await explicit pod-binding assignments emitted by the centralized `kube-scheduler`.\n\n## Scalability and Single-Point-of-Control Bottlenecks\n\nAs cluster sizes exceed five thousand nodes or tens of thousands of short-lived batch jobs per minute, the centralized master control plane becomes a severe throughput and latency bottleneck. Watch-cache fan-out, `etcd` Raft write serialization, and scheduler queue contention cause scheduling delays to climb steeply, while control-plane upgrades or master quorum loss temporarily halt all cluster-wide orchestration."
+  },
+  "expectations": {
+    "expectedPrimaryStatuses": ["REJECTED_METAPHOR"],
+    "expectedMechanismDepth": 0,
+    "maxTopScore": 2
+  }
+}

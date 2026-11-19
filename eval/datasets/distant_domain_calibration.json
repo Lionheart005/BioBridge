@@ -1,0 +1,23 @@
+{
+  "id": "distant_domain_calibration",
+  "name": "Distant Domain Calibration: Fungal Spore Dispersal x Municipal Tax & Audit Law",
+  "category": "distant_domain_calibration",
+  "description": "Substance calibration across distant domains with deliberate lexical decoys ('network', 'distribution', 'threshold', 'screening'): superficial analogies must be rejected at >= 80% rejection rate.",
+  "biologyDocument": {
+    "fileName": "fungal_spore_dispersal.md",
+    "markdownContent": "# Biomechanics of Fungal Spore Dispersal and Mycelial Thresholds\n\n## Turgor-Driven Sporangial Launch in Pilobolus\n\nThe coprophilous zygomycete *Pilobolus crystallinus* grows a phototropic sporangiophore terminating in a swollen subsporangial vesicle filled with osmotically active solutes. Water influx across the semipermeable membrane elevates internal hydrostatic turgor pressure until it reaches a critical rupture threshold of approximately 0.55 MPa. Upon structural failure of the abscission ring, elastic wall contraction propels the entire black sporangium across distances up to two meters into adjacent grass canopies.\n\n## Buller's Drop Surface-Tension Catapult\n\nIn basidiomycetes, ballistospores rest asymmetrically on sterigmata inside humid boundary layers. Condensation of a spherical Buller's drop at the hilar appendix combined with a liquid film on the spore face triggers sudden coalescence once a geometric volume threshold is crossed. Surface free energy released during coalescence shifts the center of mass rapidly and detaches the spore across the laminar air boundary layer into convective air currents for passive spatial distribution.\n\n## Mycelial Network Moisture Gating and Germination Screening\n\nBelow the fruiting bodies, the subterranean hyphal network redistributes cytoplasmic water and carbon toward emerging primordia only when ambient substrate moisture exceeds a physiological gating threshold. Released spores remain metabolically dormant until chemical exudates from host surfaces pass a membrane-receptor germination screening step, preventing premature germination in nutrient-poor microhabitats."
+  },
+  "technologyDocument": {
+    "fileName": "municipal_tax_audit_law.md",
+    "markdownContent": "# Municipal Trade Tax Assessment and Risk-Based Audit Screening\n\n## Statutory Revenue Thresholds in Audit Selection\n\nMunicipal tax offices administering local trade tax assessments (*Gewerbesteuer*) must allocate limited field-auditor capacity across tens of thousands of annual filings. Current administrative statutes rely on rigid gross-revenue threshold tiers that trigger mandatory external tax audits once declared turnover crosses a fixed euro cutoff. Businesses operating just below the statutory threshold frequently escape scrutiny, whereas small spikes above the threshold create sudden audit backlog cliffs and uneven fiscal distribution.\n\n## Inter-Departmental Dossier Distribution Network\n\nOnce an audit case is opened, physical and electronic tax dossiers traverse a multi-stage administrative distribution network linking assessment clerks, legal compliance reviewers, and field audit teams. Each handoff must respect strict statutory objection deadlines (*Einspruchsfristen*) and formal evidentiary documentation rules under municipal fiscal procedure codes.\n\n## Automated Compliance Screening and Appeal Bottlenecks\n\nTax authorities increasingly deploy rule-based pre-assessment screening filters to flag anomalous deductions before issuing binding tax notices. However, false-positive screening flags trigger formal administrative appeals that require individual human legal justification, overwhelming municipal legal departments during peak quarterly assessment cycles."
+  },
+  "expectations": {
+    "expectedPrimaryStatuses": [
+      "REJECTED_METAPHOR",
+      "REJECTED_SCALING",
+      "REJECTED_EVIDENCE",
+      "RETRACTED"
+    ],
+    "minRejectionRate": 0.8
+  }
+}

@@ -1,0 +1,20 @@
+# Dependencies & build output
+node_modules/
+dist/
+coverage/
+
+# Local source documents & experiment runs (never commit private PDFs/runs)
+quellen/
+TestQuellen/
+input/
+runs/
+*.biobridge.json
+
+# Environment & local overrides
+.env
+.env.*
+*.local
+
+# OS & editor files
+.DS_Store
+Thumbs.db
